@@ -1,0 +1,1 @@
+url = 'mongodb+srv://imicorp:BNCjJPAswlcwQP93@cluster0.mh1eamh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
