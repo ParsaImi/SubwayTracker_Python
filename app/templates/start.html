@@ -2,19 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>graph with python</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/teststyle.css">
+    <title>Document</title>
 </head>
 <body>
-    <form action="/start" method="POST">
-        <input type="text" name="src">
-        <input type="text" name="dst">
-        <button type="submit">start</button>
-    </form>
-    <p>salammmmmmm</p>
-    <ul>
-        {% for data in mydata %}
-        <li>{{ data }}</li>
-        {% endfor %}
-    </ul>
+    <div class="container">
+    <div class="tcontent">
+        <h2>برای مسیریابی مبدا و مقصد را وارد کنید</h2>
+    </div>
+<form action="/start" method="POST">
+    <div class="form-row">
+        <input type="text" name="src" placeholder="مبدا">
+        <input type="text" name="dst" placeholder="مقصد">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+    <div class="list">
+        {% if mydata %}
+            <h2>مسیر شما</h2>
+        {% endif %}
+        <ul>
+          {%for data in mydata%}
+          <li><span>{{ data }}</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 </body>
 </html>

@@ -3,6 +3,13 @@ BNCjJPAswlcwQP93
 
 
 
+<form action="/start" method="POST">
+        <input type="text" name="src">
+        <input type="text" name="dst">
+        <button type="submit">start</button>
+</form>
+
+
 ############################################################
 #!!!!!!! THE‌ LAST PROBLEM IS‌ DATABASE DATA (ROADS) !!!!!!#
 ############################################################

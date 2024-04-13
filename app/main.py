@@ -23,9 +23,7 @@ try:
 except Exception as e:
     print(e)
 
-direction = []
-myFinal = []
-mypath = []
+
 
 @app.route("/")
 def hello_world():
@@ -33,11 +31,14 @@ def hello_world():
     return render_template("start.html")
 @app.route("/start" , methods=["POST"])
 def start():
+    global mypath
+    global myFinal
+    global direction
+    global globsrc
+    global graph
     direction = []
     myFinal = []
     mypath = []
-    global globsrc
-    global graph
     src = request.form.get("src")
     dst = request.form.get("dst")
 
@@ -57,11 +58,11 @@ def start():
     return render_template("start.html" , mydata=mymen)
     # return render_template('index.html', items=perfect)
 
-@app.route("/admin" , method=["GET" , "POST"])
-def page_admin():
-    return render_template("index.html")
+# @app.route("/admin" , method=["GET" , "POST"])
+# def page_admin():
+#     return render_template("index.html")
 
-mySet = set()
+
 
 
 
@@ -86,6 +87,7 @@ def numToName(numlist):
 
 
 def hasPath(src , dst):
+    mySet = set()
     latone = None
     globsrc = src
     queue = [[src , 0 , src]]
@@ -114,6 +116,8 @@ def hasPath(src , dst):
                 queue.insert(0 , [neighbor , distance , src])
                 print(queue , "myQwas")
     print(latone , "5555555555555555555555555555555555555555555555555555555555555555555555555")
+    queue = []
+    mySet = {}
     return latone  
                 
 def roadfinder(src , saheb , globsrc ) :
@@ -131,7 +135,6 @@ def roadfinder(src , saheb , globsrc ) :
     return mypath
 
 
-print("outline",mypath)
 
             # newSrc = i[0]
             # newSaheb = i[1]

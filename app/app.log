@@ -1,0 +1,215 @@
+2024-04-12 21:41:55,666 - main - INFO - Index page accessed
+2024-04-13 12:42:19,663 - main - INFO - Index page accessed
+2024-04-13 12:46:20,123 - main - INFO - Index page accessed
+2024-04-13 12:46:22,624 - main - INFO - Index page accessed
+2024-04-13 12:48:34,172 - main - INFO - Index page accessed
+2024-04-13 13:06:18,218 - main - INFO - Index page accessed
+2024-04-13 13:06:19,374 - main - INFO - Index page accessed
+2024-04-13 13:06:20,320 - main - INFO - Index page accessed
+2024-04-13 13:06:22,370 - main - INFO - Index page accessed
+2024-04-13 13:06:24,091 - main - INFO - Index page accessed
+2024-04-13 13:08:55,711 - main - INFO - Index page accessed
+2024-04-13 13:14:58,931 - main - INFO - Index page accessed
+2024-04-13 13:15:00,474 - main - INFO - Index page accessed
+2024-04-13 13:16:36,043 - main - INFO - Index page accessed
+2024-04-13 13:17:49,456 - main - INFO - Index page accessed
+2024-04-13 15:17:36,886 - main - INFO - Index page accessed
+2024-04-13 15:22:52,371 - main - INFO - Index page accessed
+2024-04-13 15:22:53,379 - main - INFO - Index page accessed
+2024-04-13 15:23:32,628 - main - INFO - Index page accessed
+2024-04-13 15:23:33,564 - main - INFO - Index page accessed
+2024-04-13 15:24:03,394 - main - INFO - Index page accessed
+2024-04-13 15:26:08,572 - main - INFO - Index page accessed
+2024-04-13 15:28:50,215 - main - INFO - Index page accessed
+2024-04-13 15:30:01,736 - main - INFO - Index page accessed
+2024-04-13 15:30:03,293 - main - INFO - Index page accessed
+2024-04-13 15:32:04,736 - main - INFO - Index page accessed
+2024-04-13 15:32:06,712 - main - INFO - Index page accessed
+2024-04-13 15:32:53,298 - main - INFO - Index page accessed
+2024-04-13 15:32:54,910 - main - INFO - Index page accessed
+2024-04-13 15:33:25,241 - main - INFO - Index page accessed
+2024-04-13 15:33:26,818 - main - INFO - Index page accessed
+2024-04-13 15:34:56,773 - main - INFO - Index page accessed
+2024-04-13 15:35:28,415 - main - INFO - Index page accessed
+2024-04-13 15:35:49,636 - main - INFO - Index page accessed
+2024-04-13 15:37:01,556 - main - INFO - Index page accessed
+2024-04-13 15:38:30,346 - main - INFO - Index page accessed
+2024-04-13 15:46:11,322 - main - INFO - Index page accessed
+2024-04-13 15:47:53,135 - main - INFO - Index page accessed
+2024-04-13 15:51:41,313 - main - INFO - Index page accessed
+2024-04-13 15:52:03,143 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 52, in start
+    globsrc = mysrc["state"]
+TypeError: 'NoneType' object is not subscriptable
+2024-04-13 15:52:37,849 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 52, in start
+    globsrc = mysrc["state"]
+TypeError: 'NoneType' object is not subscriptable
+2024-04-13 15:53:55,558 - main - INFO - Index page accessed
+2024-04-13 15:56:44,751 - main - INFO - Index page accessed
+2024-04-13 16:03:54,536 - main - INFO - Index page accessed
+2024-04-13 16:03:56,240 - main - INFO - Index page accessed
+2024-04-13 16:04:17,503 - main - INFO - Index page accessed
+2024-04-13 16:04:18,721 - main - INFO - Index page accessed
+2024-04-13 16:04:29,533 - main - INFO - Index page accessed
+2024-04-13 16:08:55,900 - main - INFO - Index page accessed
+2024-04-13 16:09:10,471 - main - INFO - Index page accessed
+2024-04-13 16:09:14,234 - main - INFO - Index page accessed
+2024-04-13 16:09:15,583 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:09:18,943 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:09:29,674 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:13:55,969 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:23:47,664 - main - INFO - Index page accessed
+2024-04-13 16:24:04,579 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 55, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 98, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:25:08,749 - main - INFO - Index page accessed
+2024-04-13 16:25:36,261 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 55, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 96, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:31:00,958 - main - INFO - Index page accessed
+2024-04-13 16:31:24,334 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 55, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 96, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:36:32,959 - main - INFO - Index page accessed
+2024-04-13 16:36:48,204 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:37:19,362 - main - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/imicorp/.local/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 54, in start
+    mydata = hasPath(mysrc["state"] , mydst["state"])
+  File "/home/imicorp/Desktop/files/SubwayTracker_python/app/main.py", line 95, in hasPath
+    [src , distance , saheb] = queue.pop()
+IndexError: pop from empty list
+2024-04-13 16:40:45,800 - main - INFO - Index page accessed
