@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/teststyle.css">
-    <title>Document</title>
+    <title>مسیریاب مترو تهران</title>
 </head>
 <body>
     <div class="container">
@@ -24,7 +24,7 @@
         {% endif %}
         <ul>
           {%for data in mydata%}
-          <li><span>{{ data }}</span></li>
+            <li class="{{data[1]}}"><span>{{ data[0] }}</span></li>
           {% endfor %}
         </ul>
       </div>
